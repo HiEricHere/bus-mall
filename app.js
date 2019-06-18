@@ -92,6 +92,17 @@ function getRandomImage() {
 //   return ? 
 // }
 
+//do loop through teh images without displaying two of the same in an iteration
+// do display images
+// while no two are teh Same 
+// if images != continue, if images === don't
+
+// do {
+//   return getRandomImage () {
+    
+//   }
+// }
+
 //keep track of, and then end the click game at 25 selections
 // while ('click' < 25) {
 //  for (var i = 0, i <= 25; i++);
