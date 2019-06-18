@@ -10,27 +10,26 @@ function ImageAnalytics(name, filepath, displayed, clicked) {
 
 ImageAnalytics.imageDatabase = [];
 
-//CHANGE FILE PATH 
 var r2d2Bag = new ImageAnalytics('R2D2 Bag', 'images/bag.jpg', 0, 0);
 var bananaSlicer = new ImageAnalytics('Banana Slicer', 'images/banana.jpg', 0, 0);
 var poopScreen = new ImageAnalytics('Bathroom Screen', './images/bathroom.jpg', 0, 0);
 var boots = new ImageAnalytics('Yellow Boots', './images/boots.jpg', 0, 0);
 var toaster = new ImageAnalytics('Breakfast Toaster', './images/breakfast.jpg', 0, 0);
-// var meatballs = new ImageAnalytics('Delicious Meatball Gum, Yum!', './images/bag', 0, 0);
-// var chair = new ImageAnalytics('Gorgeous Red Chair', './images/bag', 0, 0);
-// var cthulhu = new ImageAnalytics('Cthulhu Eats a Guy!', './images/bag', 0, 0);
-// var dogDuck = new ImageAnalytics('Duck Dog Muzzle', './images/bag', 0, 0);
-// var dragon = new ImageAnalytics('YUMMY dragon meat', './images/bag', 0, 0);
-// var pen = new ImageAnalytics('Office Cutlery', './images/bag', 0, 0);
-// var petSweep = new ImageAnalytics('Doggie Housework Helper', './images/bag', 0, 0);
-// var scissors = new ImageAnalytics('Pizza Slicer', './images/bag', 0, 0);
-// var shark = new ImageAnalytics('Sleep With the Fishes', './images/bag', 0, 0);
-// var sweep = new ImageAnalytics('Put Baby to WORK', './images/bag', 0, 0);
-// var taunTaun = new ImageAnalytics('Smells Worse Inside', './images/bag', 0, 0);
-// var unicorn = new ImageAnalytics('You\'re a Monster if You Eat This', './images/bag', 0, 0);
-// var usb = new ImageAnalytics('Slither', './images/bag', 0, 0);
-// var waterCan = new ImageAnalytics('Not Useless at ALL', './images/bag', 0, 0);
-// var wineGlass = new ImageAnalytics('Stylish', './images/bag', 0, 0);
+var bubblegum = new ImageAnalytics('Delicious Meatball Gum, Yum!', './images/bubblegum.jpg', 0, 0);
+var chair = new ImageAnalytics('Gorgeous Red Chair', './images/chair.jpg', 0, 0);
+var cthulhu = new ImageAnalytics('Cthulhu Eats a Guy!', './images/cthulhu.jpg', 0, 0);
+var dogDuck = new ImageAnalytics('Duck Dog Muzzle', './images/dog-duck.jpg', 0, 0);
+var dragon = new ImageAnalytics('YUMMY dragon meat', './images/dragon.jpg', 0, 0);
+var pen = new ImageAnalytics('Office Cutlery', './images/pen.jpg', 0, 0);
+var petSweep = new ImageAnalytics('Doggie Housework Helper', './images/pet-sweep.jpg', 0, 0);
+var scissors = new ImageAnalytics('Pizza Slicer', './images/scissors.jpg', 0, 0);
+var shark = new ImageAnalytics('Sleep With the Fishes', './images/shark.jpg', 0, 0);
+var sweep = new ImageAnalytics('Put Baby to WORK', './images/sweep.png', 0, 0);
+var taunTaun = new ImageAnalytics('Smells Worse Inside', './images/tauntaun.jpg', 0, 0);
+var unicorn = new ImageAnalytics('You\'re a Monster if You Eat This', './images/unicorn.jpg', 0, 0);
+var usb = new ImageAnalytics('Slither', './images/usb.gif', 0, 0);
+var waterCan = new ImageAnalytics('Not Useless at ALL', './images/water-can.jpg', 0, 0);
+var wineGlass = new ImageAnalytics('Stylish', './images/wine-glass.jpg', 0, 0);
 
 console.log(ImageAnalytics.imageDatabase);
 
@@ -83,6 +82,23 @@ function getRandomImage() {
   right.src = randomArray[2];  
 }
 
+
+//Stop the randomImage generator from duplicating two of the sames images in one set
+// function nonDuplication(){
+// var emptyArray = [];
+// while (var i = 0; i < 6; i++);
+//   push(ImageAnalytics.imageDatabase);
+//   if (i > 6);
+//   return ? 
+// }
+
+//keep track of, and then end the click game at 25 selections
+// while ('click' < 25) {
+//  for (var i = 0, i <= 25; i++);
+//   push(ImageAnalytics.imageDatabase);
+//   if('click' > 25)
+//     return ("results")
+// }
 
 getRandomImage();
 
