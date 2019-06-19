@@ -59,6 +59,7 @@ function getRandomImage() {
   right.src = randomArray[2];
 }
 
+//testing
 
 //Stop the randomImage generator from duplicating two of the sames images in one set
 // function nonDuplication(){
